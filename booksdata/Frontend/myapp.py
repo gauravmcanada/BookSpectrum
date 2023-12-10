@@ -18,7 +18,7 @@ def process_collection_data(collection):
     return df, avg_price, num_ids, in_stock_count
 
 # Streamlit app
-st.title(' XYZ Book Inventory Analysis')
+st.title(' Rainbow Publishers')
 
 
 
