@@ -18,7 +18,7 @@ def process_collection_data(collection):
     return df, avg_price, num_ids, in_stock_count
 
 # Streamlit app
-st.title(' Rainbow Publications')
+st.title(' Book Spectrum')
 
 
 
@@ -47,19 +47,19 @@ st.sidebar.title("Group Members")
 st.sidebar.markdown("""
 - Rupal Bhatia
 - Gaurav Mehta
-- Felicia Ometere Olaoye
+- Pooja Yadav
 """)
 
 st.sidebar.title("Solution Architecture")
 st.sidebar.markdown("""
-- **Web scraper:** Scrapy
+- **Web scraper Tool:** Scrapy
 - **Website scraped:** [books.toscrape.com](https://books.toscrape.com/catalogue/category/books_1/index.html)
 - **Sections scraped:** Book
 - **Genres scraped:** 5
-- **Database to store:** Cloud
+- **Database to store:** MongoDB Atlas
 - **Database link:** [MongoDB Cloud](https://cloud.mongodb.com/v2/6574196ec040b63e707000b4#/metrics/replicaSet/657419da782bf66ce0c73c03/explorer/scrapy/classics_6/find)
 - **Python tool for frontend:** Streamlit
-- **API for get and push to database:** Pymongo
+- **API for PUSH and GET DB:** Pymongo
 """, unsafe_allow_html=True)
 
 
